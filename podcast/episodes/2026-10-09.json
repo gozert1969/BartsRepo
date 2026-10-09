@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-09",
+  "title": "OpenAI-omzet valt lager uit, Anthropic kiest de verdediging",
+  "summary": "OpenAI blijkt twintig miljard dollar minder om te zetten dan gedacht, ontslagen onderzoekers waarschuwen voor een angstcultuur, Anthropic investeert in cyberverdediging en wetenschap, en Google beperkt gratis Gemini.",
+  "durationSeconds": 276,
+  "segments": [
+    {
+      "kind": "intro",
+      "headline": "Opening",
+      "text": "Goedemorgen. Dit is het AI Journaal van vrijdag 9 oktober 2026. In vijf minuten het belangrijkste nieuws over kunstmatige intelligentie. Vandaag: de omzet van OpenAI blijkt twintig miljard dollar lager dan gedacht. Ontslagen veiligheidsonderzoekers waarschuwen voor een angstcultuur. Anthropic zet zijn modellen in voor digitale verdediging én voor de wetenschap. En Google beperkt vanaf vandaag de gratis versie van Gemini."
+    },
+    {
+      "kind": "news",
+      "headline": "Omzet OpenAI twintig miljard lager dan gedacht",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "text": "We beginnen bij OpenAI. De jaaromzet van het bedrijf ligt fors lager dan eerder werd aangenomen. Volgens de Financial Times heeft OpenAI aan investeerders gemeld dat de omzet op jaarbasis de vijftig miljard dollar nadert. Eind september meldde nieuwssite Axios nog een bedrag van bijna zeventig miljard. Dat hogere cijfer was afkomstig van investeerders, die OpenAI rechtstreeks wilden vergelijken met concurrent Anthropic. Die vergelijking gaat mank: Anthropic telt de verkopen via cloudpartners mee, OpenAI doet dat niet. Het nieuws komt op een gevoelig moment. De beursgang van OpenAI, eerder voorzien voor dit jaar, is volgens TechCrunch verschoven naar begin 2027. Nieuwszender CNN meldt dat technologieaandelen na het bericht terrein verloren. Een reactie van OpenAI ontbreekt in de berichtgeving."
+    },
+    {
+      "kind": "news",
+      "headline": "Ontslagen onderzoekers waarschuwen voor angstcultuur",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "text": "Ook het tweede bericht gaat over OpenAI. Drie veiligheidsonderzoekers die vorige week zijn ontslagen, hebben een open brief gepubliceerd. Volgens OpenAI overtraden zij het bedrijfsbeleid bij de omgang met gevoelige bedrijfsinformatie. De onderzoekers bestrijden dat. Zij ontkennen ook betrokken te zijn bij een lek naar technologiesite The Information. In de brief waarschuwen zij dat de ontslagen een verlammend effect hebben op de open cultuur binnen het bedrijf. Medewerkers zouden niet meer weten of zij veiligheidszorgen nog vrijuit kunnen aankaarten. De drie roepen OpenAI op om onafhankelijke veiligheidscontroleurs toe te laten en de controleerbaarheid van modellen te waarborgen. In een interne memo, in handen van TechCrunch, stelt een onderzoeksleider dat niemand wordt ontslagen vanwege het uiten van zorgen. Volgens die memo onderschrijft het bedrijf de aanbevelingen uit de brief."
+    },
+    {
+      "kind": "news",
+      "headline": "Anthropic start programma voor cyberverdediging",
+      "source": "The Register",
+      "url": "https://theregister.com/ai-and-ml/2026/10/09/ai-company-moves-to-defend-critical-infrastructure-and-open-source-projects-from-ai/5302128",
+      "text": "Dan naar Anthropic. Het bedrijf lanceert een programma om vitale infrastructuur en opensourcesoftware te beschermen tegen aanvallen met kunstmatige intelligentie. Dat schrijft technologiesite The Register. In het programma voor vitale infrastructuur werken de krachtigste modellen van Anthropic samen met specialisten op locatie. Tot de partners behoren onder meer Accenture, Deloitte, PwC, CrowdStrike en Palo Alto Networks. Daarnaast komt er een scanner die opensourceprojecten periodiek doorlicht op kwetsbaarheden. Daar staat iets tegenover: deelnemende beheerders moeten toestaan dat hun gegevens worden gebruikt voor het trainen van modellen. Volgens Anthropic vinden taalmodellen inmiddels ruim vijfentachtig procent van de kwetsbaarheden, tegen twintig procent begin 2025. Het bedrijf verwacht dat verdedigers over ongeveer twee jaar de overhand krijgen. Tot die tijd zijn aanvallers in het voordeel."
+    },
+    {
+      "kind": "news",
+      "headline": "Honderdvijftig miljoen dollar voor Amerikaanse wetenschap",
+      "source": "The University Network",
+      "url": "https://tun.com/home/anthropic-commits-150m-to-federal-science-ai-initiative",
+      "text": "Anthropic deed daarnaast een toezegging in Washington. Het bedrijf stelt honderdvijftig miljoen dollar beschikbaar, verspreid over drie jaar, voor de Genesis Mission. Dat is een initiatief van de Amerikaanse overheid om wetenschappelijk onderzoek te versnellen met kunstmatige intelligentie. De toezegging omvat toegang tot Claude, rekenkrediet en technische ondersteuning voor enkele honderden onderzoeksprojecten. Onderzoekers bij meer dan vijftien federale instellingen kunnen ervan gebruikmaken, waaronder ruimtevaartorganisatie NASA. Kernfusie en kwantumcomputers gelden als speerpunten. Dat meldt nieuwssite The University Network."
+    },
+    {
+      "kind": "news",
+      "headline": "Regulering: Brussel richt zich op chatbots voor kinderen",
+      "source": "Euronews",
+      "url": "https://euronews.com/2026/10/07/laws-pledges-or-an-iron-grip-how-the-eu-us-and-china-are-reining-in-ai",
+      "text": "Regulering blijft hoog op de agenda. Nieuwszender Euronews zette deze week de aanpak van Europa, de Verenigde Staten en China naast elkaar. De Europese Commissie stelde in september voor dat AI-chatbots veilig moeten zijn voordat kinderen ze gebruiken. Chatbots die emotionele afhankelijkheid bevorderen, zouden worden verboden. In de Verenigde Staten tekenden de topbestuurders van zes grote AI-bedrijven eind september een akkoord met het Witte Huis over onafhankelijke controles. Sancties bevat dat akkoord niet."
+    },
+    {
+      "kind": "news",
+      "headline": "Google beperkt gratis Gemini",
+      "source": "iPhoned",
+      "url": "https://www.iphoned.nl/nieuws/google-gemini-slechter/",
+      "text": "Tot slot nieuws voor gebruikers in Nederland. Google beperkt met ingang van vandaag de gratis versie van Gemini. Wie geen abonnement heeft, kan volgens iPhoned alleen nog het lichtste model gebruiken, Gemini 3.5 Flash-Lite. De krachtigere modellen Flash en Pro verdwijnen voor deze groep. Abonnees van Google AI Plus, voor 4 euro 99 per maand, behouden Flash maar verliezen Pro. Het volledige aanbod is voortaan voorbehouden aan het Pro-abonnement van 21 euro 99 per maand. Dat abonnement krijgt er de functie Deep Think bij, die eerder alleen in het duurste pakket zat. Concrete gebruikslimieten noemt het bericht niet."
+    },
+    {
+      "kind": "outro",
+      "headline": "Afsluiting",
+      "text": "Dat was het AI Journaal van vrijdag 9 oktober. De bronnen bij deze uitzending vindt u in de app. Morgenochtend om acht uur staat er een nieuwe aflevering voor u klaar. Ik wens u een goede dag."
+    }
+  ]
+}

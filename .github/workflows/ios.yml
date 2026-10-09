@@ -1,0 +1,77 @@
+name: iOS build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ios/**"
+      - ".github/workflows/ios.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build for simulator
+        id: build
+        run: |
+          set -o pipefail
+          mkdir -p results
+          xcodebuild -version | tee results/xcode.txt
+          cd ios/AIJournaal
+          xcodebuild -project AIJournaal.xcodeproj -scheme AIJournaal \
+            -configuration Debug -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build CODE_SIGNING_ALLOWED=NO build > ../../results/full.log 2>&1 || true
+          cd ../..
+          grep -E "error:|warning:|BUILD (SUCCEEDED|FAILED)" results/full.log | sort -u > results/build.txt || true
+          tail -40 results/full.log > results/tail.txt
+          rm results/full.log
+          grep -q "BUILD SUCCEEDED" results/build.txt
+
+      - name: Screenshots
+        if: steps.build.outcome == 'success'
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json, sys
+          devices = json.load(sys.stdin)['devices']
+          for runtime in sorted(devices, reverse=True):
+              if 'iOS' not in runtime:
+                  continue
+              for device in devices[runtime]:
+                  if device['name'].startswith('iPhone') and 'Pro' in device['name'] and 'Max' not in device['name']:
+                      print(device['udid']); sys.exit(0)
+          ")
+          echo "Simulator: $UDID"
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl install "$UDID" ios/AIJournaal/build/Build/Products/Debug-iphonesimulator/AIJournaal.app
+          xcrun simctl launch "$UDID" nl.vandervelden.AIJournaal
+          sleep 15
+          xcrun simctl io "$UDID" screenshot results/home.png
+          xcrun simctl terminate "$UDID" nl.vandervelden.AIJournaal
+          xcrun simctl launch "$UDID" nl.vandervelden.AIJournaal -demoPlayer
+          sleep 14
+          xcrun simctl io "$UDID" screenshot results/player-1.png
+          sleep 4
+          xcrun simctl io "$UDID" screenshot results/player-2.png
+          sleep 25
+          xcrun simctl io "$UDID" screenshot results/player-3.png
+
+      - name: Publish results
+        if: always()
+        run: |
+          cd results
+          echo "${GITHUB_SHA}" > commit.txt
+          git init -q -b ci-results
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "CI results for ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ci-results
