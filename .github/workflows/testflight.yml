@@ -1,0 +1,94 @@
+name: TestFlight
+
+# Bouwt de app, ondertekent hem en stuurt hem naar TestFlight.
+# Vereist vier repository secrets: ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8 en APPLE_TEAM_ID.
+on:
+  workflow_dispatch:
+  schedule:
+    # Elke eerste dag van de maand: een TestFlight-build verloopt na 90 dagen.
+    - cron: "17 5 1 * *"
+  push:
+    branches: [main]
+    paths:
+      - "ios/AIJournaal/**"
+      - ".github/workflows/testflight.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: testflight
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: macos-26
+    timeout-minutes: 45
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+      APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+    steps:
+      - name: Check secrets
+        id: secrets
+        run: |
+          if [ -z "$ASC_KEY_ID" ] || [ -z "$ASC_ISSUER_ID" ] || [ -z "$ASC_KEY_P8" ] || [ -z "$APPLE_TEAM_ID" ]; then
+            echo "::notice::TestFlight-secrets ontbreken nog; upload overgeslagen."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.secrets.outputs.ready == 'true'
+
+      - name: Archive and upload
+        id: upload
+        if: steps.secrets.outputs.ready == 'true'
+        run: |
+          set -o pipefail
+          mkdir -p "$RUNNER_TEMP/keys" results
+          KEY_PATH="$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8"
+          printf '%s\n' "$ASC_KEY_P8" > "$KEY_PATH"
+          AUTH=(-allowProvisioningUpdates -authenticationKeyPath "$KEY_PATH" -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID")
+          cd ios/AIJournaal
+          STATUS=ok
+          xcodebuild -project AIJournaal.xcodeproj -scheme AIJournaal -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/AIJournaal.xcarchive" \
+            "${AUTH[@]}" \
+            DEVELOPMENT_TEAM="$APPLE_TEAM_ID" \
+            CURRENT_PROJECT_VERSION="$GITHUB_RUN_NUMBER" \
+            archive > "$RUNNER_TEMP/archive.log" 2>&1 || STATUS=archive-failed
+          if [ "$STATUS" = ok ]; then
+            xcodebuild -exportArchive \
+              -archivePath "$RUNNER_TEMP/AIJournaal.xcarchive" \
+              -exportOptionsPlist ExportOptions.plist \
+              -exportPath "$RUNNER_TEMP/export" \
+              "${AUTH[@]}" > "$RUNNER_TEMP/export.log" 2>&1 || STATUS=upload-failed
+          fi
+          rm -f "$KEY_PATH"
+          cd ../..
+          # Alleen foutregels publiceren, met de geheime waarden weggehaald.
+          {
+            echo "status: $STATUS"
+            echo "build: $GITHUB_RUN_NUMBER"
+            echo "commit: $GITHUB_SHA"
+            cat "$RUNNER_TEMP"/archive.log "$RUNNER_TEMP"/export.log 2>/dev/null \
+              | grep -iE "error|ARCHIVE (SUCCEEDED|FAILED)|EXPORT (SUCCEEDED|FAILED)|Upload succeeded|Uploaded" | sort -u | head -80
+          } | sed -e "s/$ASC_KEY_ID/[key-id]/g" -e "s/$ASC_ISSUER_ID/[issuer-id]/g" -e "s/$APPLE_TEAM_ID/[team-id]/g" > results/testflight.txt
+          cat results/testflight.txt
+          [ "$STATUS" = ok ]
+
+      - name: Publish result
+        if: always() && steps.secrets.outputs.ready == 'true'
+        run: |
+          mkdir -p results && cd results
+          [ -f testflight.txt ] || echo "status: no-result" > testflight.txt
+          git init -q -b ci-testflight
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add testflight.txt
+          git commit -q -m "TestFlight result for ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ci-testflight
