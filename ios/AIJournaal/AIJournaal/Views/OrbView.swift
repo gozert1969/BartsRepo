@@ -97,12 +97,15 @@ struct OrbView: View {
         // 4. Kern
         let coreRect = CGRect(x: center.x - core, y: center.y - core, width: core * 2, height: core * 2)
         let corePath = Path(ellipseIn: coreRect)
+        // Een lineair verloop waarvan de richting langzaam ronddraait: geen naad, wel beweging.
+        let turn = (time * 0.28).truncatingRemainder(dividingBy: 2 * Double.pi)
+        let reach = CGPoint(x: core * cos(turn), y: core * sin(turn))
         context.fill(
             corePath,
-            with: .conicGradient(
-                Gradient(colors: [Theme.violet, Theme.orchid, Theme.apricot, Theme.amber, Theme.violet]),
-                center: center,
-                angle: .radians(time * 0.28)
+            with: .linearGradient(
+                Gradient(colors: [Theme.violet, Theme.orchid, Theme.apricot, Theme.amber]),
+                startPoint: CGPoint(x: center.x - reach.x, y: center.y - reach.y),
+                endPoint: CGPoint(x: center.x + reach.x, y: center.y + reach.y)
             )
         )
         context.fill(
