@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "episodes": [
+    {
+      "date": "2026-10-10",
+      "title": "Witte Huis verplicht AI-bedrijven incidenten te melden",
+      "summary": "Washington maakt het melden van AI-incidenten verplicht na voorvallen bij Anthropic, Brussel verdedigt de Europese AI-wet, TypeSafe en Nuvacore halen geld op en het Amsterdamse Intelic koppelt drones in Oekraïne.",
+      "durationSeconds": 286,
+      "file": "episodes/2026-10-10.json"
+    },
     {
       "date": "2026-10-09",
       "title": "OpenAI-omzet valt lager uit, Anthropic kiest de verdediging",
