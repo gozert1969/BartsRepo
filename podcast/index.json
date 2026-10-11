@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "episodes": [
+    {
+      "date": "2026-10-11",
+      "title": "Google geeft AI-agent een eigen mailadres en agenda",
+      "summary": "Google presenteert een AI-agent met eigen mailadres, Anthropic verbiedt wreedheid tegenover Claude, Apple bestelt minder iPhone-onderdelen, Manus haalt geld op en een studie waarschuwt voor verlies van doorzettingsvermogen.",
+      "durationSeconds": 288,
+      "file": "episodes/2026-10-11.json"
+    },
     {
       "date": "2026-10-10",
       "title": "Witte Huis verplicht AI-bedrijven incidenten te melden",

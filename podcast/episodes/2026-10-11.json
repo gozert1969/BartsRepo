@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-11",
+  "title": "Google geeft AI-agent een eigen mailadres en agenda",
+  "summary": "Google presenteert een AI-agent met eigen mailadres, Anthropic verbiedt wreedheid tegenover Claude, Apple bestelt minder iPhone-onderdelen, Manus haalt geld op en een studie waarschuwt voor verlies van doorzettingsvermogen.",
+  "durationSeconds": 288,
+  "segments": [
+    {
+      "kind": "intro",
+      "headline": "Opening",
+      "text": "Goedemorgen. Dit is het AI Journaal van zondag 11 oktober 2026. In vijf minuten het belangrijkste nieuws over kunstmatige intelligentie. Vandaag: Google geeft zijn AI-agent een eigen mailadres en agenda op kantoor. Anthropic verbiedt aanhoudende wreedheid tegenover zijn model Claude. Apple bestelt minder onderdelen voor de duurste iPhones, nu geheugenchips duurder worden. En tien minuten hulp van een chatbot blijkt het doorzettingsvermogen aan te tasten."
+    },
+    {
+      "kind": "news",
+      "headline": "Google geeft AI-agent eigen mailadres en agenda",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
+      "text": "We beginnen bij Google. Het bedrijf heeft één universele AI-agent voor zakelijk gebruik gepresenteerd, de Gemini-agent. Dat meldt vaksite MarkTechPost. De agent beantwoordt vragen, maakt documenten en beeldmateriaal en schrijft programmacode. Gebruikers geven een doel op in plaats van losse opdrachten. Taken kunnen uren of dagen doorlopen, ook als de gebruiker zijn laptop sluit. Een zogeheten collega-agent krijgt een eigen mailadres, een eigen agenda, eigen opslagruimte en een vermelding in de bedrijfsgids. Elke handeling wordt vastgelegd op naam van de agent, niet van een persoon. Google laat het werk uitvoeren door zijn eigen Gemini-modellen en door Claude van concurrent Anthropic. Een prijs en een datum voor algemene beschikbaarheid ontbreken nog."
+    },
+    {
+      "kind": "news",
+      "headline": "Anthropic verbiedt wreedheid tegenover Claude",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "text": "Dan naar Anthropic, dat zijn gebruiksvoorwaarden aanscherpt. Het bedrijf verbiedt aanhoudend en nodeloos kwetsend of wreed gedrag tegenover zijn modellen. Dat schrijft technologiesite The Register. De nieuwe regels gaan in op 12 november. Volgens Anthropic gaat het alleen om extreme gevallen. Gewone frustratie, tegenspraak en het testen van modellen vallen er niet onder. The Register merkt op dat onduidelijk is hoe het bedrijf dat onderscheid gaat maken. Er verandert meer. Het verbod op wapens geldt voortaan ook voor software en onderdelen, na pogingen om besturingssystemen voor bewapende drones te bouwen. Claude mag niet adviseren wie de politie moet onderzoeken, aanhouden of vervolgen. Ook de regels tegen misleidende campagnes rond verkiezingen zijn aangescherpt."
+    },
+    {
+      "kind": "news",
+      "headline": "Apple bestelt minder onderdelen voor iPhone 18 Pro",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/apple-iphone-18-pro-orders-cut-nikkei",
+      "text": "De vraag naar rekenkracht voor AI raakt ook de telefoonmarkt. Apple heeft leveranciers gevraagd minder onderdelen te maken voor de iPhone 18 Pro en de Pro Max. Dat schrijft The Next Web, op basis van de Japanse zakenkrant Nikkei Asia. De bestellingen voor oktober liggen minstens vijftien procent lager dan eerst gevraagd. The Next Web heeft het bericht niet zelf kunnen verifiëren. Beide toestellen zijn honderd dollar duurder dan hun voorgangers. Leveranciers wijzen op de gestegen prijs van geheugenchips, omdat datacenters voor AI een groot deel van het wereldwijde aanbod opkopen. Onderzoeksbureau TrendForce schatte in augustus dat de onderdelen van het toestel ongeveer achtendertig procent duurder zijn dan een jaar eerder."
+    },
+    {
+      "kind": "news",
+      "headline": "Manus haalt ruim half miljard dollar op",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+      "text": "Over naar het investeringsnieuws. Het moederbedrijf van de Chinese AI-ontwikkelaar Manus heeft meer dan vijfhonderd miljoen dollar opgehaald. Dat meldt technologiesite TechCrunch. Het is de eerste financieringsronde sinds de overname door Meta werd teruggedraaid. Meta wilde Manus kopen voor twee miljard dollar. In april gaven de Chinese autoriteiten opdracht die overeenkomst ongedaan te maken, uit zorg over het vertrek van AI-talent naar het Westen. De investeerders Boyu Capital en IDG Capital leiden de ronde. De waardering is niet bekendgemaakt. Manus maakt AI-agenten die zelfstandig taken uitvoeren, zoals het bouwen van apps en websites. Het bedrijf overweegt volgens berichten een beursgang in Hongkong."
+    },
+    {
+      "kind": "news",
+      "headline": "Londen wil concurrentiebeding voor start-ups inperken",
+      "source": "Tech.eu",
+      "url": "https://tech.eu/2026/10/09/uk-o-ban-non-compete-clauses-marking-boon-for-startup-and-scaleups",
+      "text": "Dan naar Europa. De Britse regering gaat het concurrentiebeding in arbeidscontracten inperken. Dat meldt nieuwssite Tech.eu. Premier Andy Burnham kondigde wetgeving aan op een innovatiecongres in Manchester. Een concurrentiebeding verbiedt een werknemer om over te stappen naar een concurrent of zelf een bedrijf te beginnen. Volgens Burnham remmen zulke bepalingen de innovatie. Ze mogen niet langer in de weg staan als veelbelovende jonge bedrijven personeel willen aannemen. Hoe ver de maatregel gaat, is nog niet bekend. Een volledig verbod is mogelijk. Het besluit volgt op een campagne van onder meer de AI-bedrijven ElevenLabs en Synthesia. Brancheorganisatie Startup Coalition spreekt van een grote stap."
+    },
+    {
+      "kind": "news",
+      "headline": "Studie: tien minuten AI tast doorzettingsvermogen aan",
+      "source": "Berkeley News",
+      "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/",
+      "text": "Tot slot opvallend onderzoek. Wie tien minuten op een AI-hulpmiddel leunt, zet daarna minder goed door bij moeilijke taken. Dat meldt Berkeley News, de nieuwsdienst van de Universiteit van Californië in Berkeley. Onderzoekers deden drie experimenten met in totaal ruim twaalfhonderd deelnemers. Een deel van hen mocht ChatGPT gebruiken bij rekensommen met breuken of bij leesopgaven. Die groep scoorde aanvankelijk beter. Toen het hulpmiddel werd weggehaald, gaven zij vaker een fout antwoord of haakten zij af. De groep zonder hulp hield vol en eindigde met betere resultaten. Medeauteur Brian Christian pleit voor chatbots die standaard uitleg geven, zoals een docent, in plaats van snelle antwoorden."
+    },
+    {
+      "kind": "outro",
+      "headline": "Afsluiting",
+      "text": "Dat was het AI Journaal van zondag 11 oktober. De bronnen bij deze uitzending vindt u in de app. Morgenochtend om acht uur staat er een nieuwe aflevering voor u klaar. Ik wens u een goede dag."
+    }
+  ]
+}
