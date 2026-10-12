@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "episodes": [
+    {
+      "date": "2026-10-12",
+      "title": "Amazon en Nvidia azen op AI-bedrijven",
+      "summary": "Amazon praat over de overname van Decart, Nvidia over Reflection AI, Nadella wil een noodrem op AI, Anthropic huurt rekenkracht bij IREN en drones leggen datacenters van Yandex stil.",
+      "durationSeconds": 292,
+      "file": "episodes/2026-10-12.json"
+    },
     {
       "date": "2026-10-11",
       "title": "Google geeft AI-agent een eigen mailadres en agenda",

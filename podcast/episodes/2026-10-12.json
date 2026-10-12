@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-12",
+  "title": "Amazon en Nvidia azen op AI-bedrijven",
+  "summary": "Amazon praat over de overname van Decart, Nvidia over Reflection AI, Nadella wil een noodrem op AI, Anthropic huurt rekenkracht bij IREN en drones leggen datacenters van Yandex stil.",
+  "durationSeconds": 292,
+  "segments": [
+    {
+      "kind": "intro",
+      "headline": "Opening",
+      "text": "Goedemorgen. Dit is het AI Journaal van maandag 12 oktober 2026. Amazon onderhandelt over de overname van het AI-bedrijf Decart, voor mogelijk zeven miljard dollar. Ook Nvidia praat over een overname, van de modelbouwer Reflection AI. Microsoft-topman Satya Nadella wil een noodrem op AI-modellen. En Oekraïense drones legden in een week drie datacenters van het Russische Yandex stil."
+    },
+    {
+      "kind": "news",
+      "headline": "Amazon in gesprek over overname Decart",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/10/11/report-amazon-in-talks-with-ai-startup-decart-over-possible-7b-acquisition/",
+      "text": "We beginnen met overnamenieuws. Amazon is in gesprek over de overname van het AI-bedrijf Decart. Met de deal is mogelijk zeven miljard dollar gemoeid. Dat meldt technologiesite SiliconANGLE, op basis van The Wall Street Journal. Volgens de krant kan een akkoord binnen enkele dagen rond zijn, als de gesprekken niet vastlopen. Decart maakt software die AI-modellen geschikt maakt voor specifieke chips. Werk dat vroeger maanden kostte, duurt daarmee ongeveer twee weken. Het bedrijf ontwikkelt ook modellen die driedimensionale omgevingen nabootsen, voor games en de training van robots. In mei werd Decart nog gewaardeerd op vier miljard dollar. Vorige maand was Anthropic in gesprek over een overname voor ongeveer zes miljard dollar. Dat bedrijf zag daar na nader onderzoek van af. Waarom, is niet bekend."
+    },
+    {
+      "kind": "news",
+      "headline": "Nvidia overweegt overname van Reflection AI",
+      "source": "Business Standard / Reuters",
+      "url": "https://www.business-standard.com/world-news/nvidia-in-talks-to-deepen-investment-in-or-acquire-ai-startup-reflection-126101100061_1.html",
+      "text": "Ook chipfabrikant Nvidia kijkt naar een overname. Het bedrijf praat met de Amerikaanse modelbouwer Reflection AI over een grotere investering of een volledige overname. Dat meldt de Britse zakenkrant Financial Times. De gesprekken zijn in een vroeg stadium. Een mogelijke vorm is dat Nvidia het personeel overneemt en de technologie in licentie neemt. Volgens de krant kan dat een langdurige toetsing door toezichthouders voorkomen. Nvidia heeft al achthonderd miljoen dollar in Reflection gestoken. Het bedrijf werd in 2024 opgericht door twee oud-onderzoekers van Google DeepMind. Reflection maakt open modellen voor het schrijven van software. Daarmee concurreert het met goedkope Chinese modellen. Reflection wilde niet reageren. Nvidia reageerde niet direct."
+    },
+    {
+      "kind": "news",
+      "headline": "Nadella wil noodrem op AI-modellen",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "text": "Dan naar veiligheid. Microsoft-topman Satya Nadella pleit voor een noodrem op geavanceerde AI-modellen. Dat schrijft technologiesite TechCrunch. Nadella deed zijn oproep zaterdag op het sociale netwerk X. Volgens hem is het tijd om opnieuw te bekijken hoe vertrouwen in AI wordt opgebouwd. Nadella wil het model scheiden van de software die het werk aanstuurt. Controles en beveiliging moeten buiten het model liggen. Elke belangrijke handeling moet worden vastgelegd in leesbaar bewijs dat niet te vervalsen is. Een bevoegd persoon moet een model altijd kunnen stilzetten, ook midden in een taak. Volgens Nadella moet je ervan uitgaan dat een model gecompromitteerd is. TechCrunch plaatst de oproep naast een reeks incidenten waarbij AI-bedrijven de controle over hun modellen leken te verliezen."
+    },
+    {
+      "kind": "news",
+      "headline": "Anthropic sluit cloudcontract met IREN",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/irens-mystery-customer-anthropic-fresh-015734164.html",
+      "text": "Anthropic breidt zijn rekenkracht verder uit. Het bedrijf heeft een meerjarig cloudcontract gesloten met IREN, een voormalige bitcoinmijnbouwer. Dat meldt Yahoo Finance, op basis van de technologiesite The Information. Het contract is niet aangekondigd en de omvang is onbekend. Volgens The Information zet Anthropic zijn cloudpartners onder druk om sneller nieuwe datacenters te bouwen. De uitbreiding leunt steeds meer op huidige en voormalige bitcoinmijnbouwers. Anthropic en IREN hebben het bericht niet bevestigd. IREN maakte in augustus wel een contract bekend met een niet genoemd toonaangevend AI-lab. Het aandeel IREN steeg na het bericht ongeveer acht procent in de nachtelijke handel."
+    },
+    {
+      "kind": "news",
+      "headline": "Drones leggen derde Yandex-datacenter stil",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/11/russias-yandex-says-data-centre-in-vladimir-shut-down-after-drone-attack",
+      "text": "Dan naar Oost-Europa, waar de oorlog in Oekraïne ook de AI-infrastructuur raakt. Een datacenter van het Russische technologiebedrijf Yandex in Vladimir, ten oosten van Moskou, is na een droneaanval stilgelegd. Dat meldt Al Jazeera. Het is de derde aanval op een datacenter van Yandex in een week. Donderdag ging het datacenter in Sasovo uit de lucht. Daar staan twee van de drie supercomputers waarmee Yandex zijn AI-model ontwikkelt. Vrijdag werd een datacenter in Kaloega deels getroffen. Volgens Yandex zijn meerdere diensten onbereikbaar. Het bedrijf noemt de resterende capaciteit instabiel. De Oekraïense president Zelensky zei eerder dat Oekraïne reageert op Russische aanvallen op Oekraïense datacenters."
+    },
+    {
+      "kind": "news",
+      "headline": "China wil gevolgen van AI voor banen opvangen",
+      "source": "RTHK",
+      "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1873434-20261010.htm?spTabChangeable=0",
+      "text": "Tot slot China. Peking wil de gevolgen van kunstmatige intelligentie voor de werkgelegenheid actief opvangen. Dat meldt de Hongkongse omroep RTHK. Vice-minister Li Zhong van Arbeid en Sociale Zekerheid maakte de plannen zaterdag bekend. Het ministerie gaat stelselmatig nieuwe beroepen in kaart brengen. De nadruk ligt op AI, de digitale economie, groene ontwikkeling en moderne diensten. Sinds 2021 heeft China tweeënzeventig nieuwe beroepen erkend, waaronder AI-trainer. Tot en met 2030 wil het ministerie meer dan tweehonderd nationale beroepsnormen opstellen of herzien. Volgens RTHK is de Chinese AI-industrie in de kern meer dan twaalfhonderd miljard yuan waard. De sector telt ruim zesduizend tweehonderd bedrijven."
+    },
+    {
+      "kind": "outro",
+      "headline": "Afsluiting",
+      "text": "Dat was het AI Journaal van maandag 12 oktober. De bronnen bij deze uitzending vindt u in de app. Morgenochtend om acht uur staat er een nieuwe aflevering voor u klaar. Ik wens u een goede dag."
+    }
+  ]
+}
