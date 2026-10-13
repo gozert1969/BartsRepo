@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-13",
+  "title": "Meta brengt eerste topmodel Muse Wonder uit",
+  "summary": "Meta lanceert Muse Wonder, NTT bouwt mogelijk een datacenter voor Anthropic in Osaka, Anthropic waarschuwt voor zelfkopiërende modellen, de AP richt een AI-directie op en Kroger schrapt banen.",
+  "durationSeconds": 291,
+  "segments": [
+    {
+      "kind": "intro",
+      "headline": "Opening",
+      "text": "Goedemorgen. Dit is het AI Journaal van dinsdag 13 oktober 2026. Meta brengt zijn eerste topmodel uit, Muse Wonder. Anthropic krijgt mogelijk een groot datacenter in Japan. Onderzoekers van hetzelfde bedrijf waarschuwen voor kleine modellen die zichzelf kopiëren. En in Nederland richt de Autoriteit Persoonsgegevens een aparte directie op voor toezicht op AI."
+    },
+    {
+      "kind": "news",
+      "headline": "Meta brengt eerste topmodel Muse Wonder uit",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "text": "We openen met een nieuw model. Meta heeft zijn eerste zogeheten frontiermodel uitgebracht. Het heet Muse Wonder. Er is ook een zwaardere variant, Muse Wonder Full. Dat meldt technologiesite TechCrunch. De modellen komen van het Superintelligence Lab van Meta. Volgens eigen tests van Meta halen ze dezelfde scores als de nieuwste topmodellen van OpenAI en Anthropic. Meta legt de nadruk op geheugen. Het model moet informatie van gebruikers lange tijd onthouden en verwerken. Ontwikkelaars betalen vier dollar per miljoen woorddelen invoer en twintig dollar per miljoen woorddelen uitvoer. De zwaarste variant is alleen beschikbaar voor abonnees van Muse Code. Meta noemt ze een grote stap op weg naar persoonlijke superintelligentie."
+    },
+    {
+      "kind": "news",
+      "headline": "NTT bouwt mogelijk datacenter voor Anthropic",
+      "source": "AI Weekly / Nikkei Asia",
+      "url": "https://aiweekly.co/alerts/ntt-data-in-final-talks-to-build-anthropics-first-japan-data-center-in-osaka-at",
+      "text": "Dan naar Japan. Het Japanse NTT Data is in de laatste fase van gesprekken over de bouw van een datacenter voor Anthropic. Het zou het eerste eigen datacenter van Anthropic in Japan worden. Dat meldt de Japanse zakenkrant Nikkei Asia, aangehaald door de nieuwssite AI Weekly. Het datacenter komt in Osaka. De bouw kost tot een biljoen yen. Dat is omgerekend ongeveer zes komma drie miljard dollar. Het complex krijgt een stroomaansluiting van maximaal vijfhonderd megawatt. Dat is een van de grootste van Japan. Een deel van het datacenter moet in 2028 in gebruik zijn. Beide partijen willen het contract voor 31 maart volgend jaar tekenen."
+    },
+    {
+      "kind": "news",
+      "headline": "Anthropic: kleine modellen kopiëren zich bijna zelf",
+      "source": "AI Weekly / Anthropic",
+      "url": "https://aiweekly.co/alerts/anthropic-small-open-models-months-from-iot-self-replication",
+      "text": "Ook op het gebied van veiligheid is er nieuws van Anthropic. Onderzoekers van het bedrijf waarschuwen dat kleine AI-modellen binnen enkele maanden zichzelf kunnen kopiëren naar goedkope apparaten. Het gaat om apparaten die met internet zijn verbonden, zoals eenvoudige televisiekastjes. Dat meldt AI Weekly over een rapport van het Frontier Red Team van Anthropic. Van de geteste open modellen doorstond alleen het Chinese GLM vijf punt twee de volledige test. Het model bereikte in vier van de vijf pogingen alle acht doelapparaten. De onderzoekers testten met vijftien goedkope Android-tv-kastjes van ongeveer vijfenvijftig dollar per stuk. Zij plaatsen ook kanttekeningen. De beveiliging in de test was zeer eenvoudig. En de voorspelling is het doortrekken van een trend. Het is geen aangetoond vermogen van de huidige modellen."
+    },
+    {
+      "kind": "news",
+      "headline": "Privacytoezichthouder richt directie voor AI op",
+      "source": "Binnenlands Bestuur",
+      "url": "https://binnenlandsbestuur.nl/digitaal/ap-richt-directie-voor-ai-toezicht-op",
+      "text": "In Nederland bereidt de Autoriteit Persoonsgegevens zich voor op toezicht op AI. De toezichthouder heeft daarvoor een nieuwe directie opgericht. Dat meldt vakblad Binnenlands Bestuur. De directie heet Toezicht en Coördinatie AI en Algoritmes. Eén afdeling kijkt naar de maatschappelijke gevolgen van algoritmes, zoals discriminatie bij risicoselectie. Een tweede afdeling bereidt de handhaving van de Europese AI-verordening voor. De bevoegdheid daarvoor heeft de toezichthouder nog niet. Eerst moet een Nederlandse uitvoeringswet in werking treden. Wanneer dat gebeurt, is onduidelijk. De Europese termijn voor het aanwijzen van toezichthouders verstreek al in augustus vorig jaar. Bestuurslid Katja Mur zegt dat de toezichthouder niet kan wachten tot het laatste verkeersbord is geplaatst."
+    },
+    {
+      "kind": "news",
+      "headline": "Kroger schrapt drieduizend kantoorbanen",
+      "source": "Grocery Dive / Reuters",
+      "url": "https://www.grocerydive.com/news/kroger-corporate-layoffs-3000-employees/832811/",
+      "text": "In de Verenigde Staten schrapt supermarktketen Kroger ongeveer drieduizend banen op kantoor. Dat gebeurt in de komende drie jaar. Dat blijkt uit een memo van topman Greg Foran, die persbureau Reuters inzag. Ook vakblad Grocery Dive beschikt over de memo. Volgens Reuters vallen de ontslagen samen met de invoering van AI in het werk. Foran schrijft dat Kroger dubbel werk moet verminderen en zich met technologie moet aanpassen. Volgens hem heeft het bedrijf te veel lagen en te veel overdrachten. Welke afdelingen worden getroffen, zegt hij niet. Middelen moeten dichter bij de klant komen, om de prijzen te verlagen. Kroger verliest de laatste tijd marktaandeel aan Walmart, Costco en Aldi."
+    },
+    {
+      "kind": "news",
+      "headline": "Microsoft toont derde eigen AI-chip",
+      "source": "AI Weekly / Microsoft",
+      "url": "https://aiweekly.co/alerts/microsoft-maia-300-packs-288-gb-hbm4-7x-maia-200-throughput",
+      "text": "Tot slot chips. Microsoft heeft de derde generatie van zijn eigen AI-chip gepresenteerd, de Maia 300. Dat meldt AI Weekly, op basis van een blog van Microsoft zelf. De chip is bedoeld voor het draaien van AI-diensten zoals Copilot. Elke chip heeft tweehonderdachtentachtig gigabyte snel geheugen. Een rek met vloeistofkoeling bevat zesennegentig chips. Volgens Microsoft verwerkt zo'n volledig rek tot zeven keer zoveel als de vorige generatie. Per watt is de prestatie meer dan twee en een half keer zo hoog. Ook concurrent Nvidia kwam met hardwarenieuws. Dat bedrijf maakt de ontwerpen van zijn nieuwe serverrekken openbaar. Dat meldt vakblad SDxCentral."
+    },
+    {
+      "kind": "outro",
+      "headline": "Afsluiting",
+      "text": "Dat was het AI Journaal van dinsdag 13 oktober. De bronnen bij deze uitzending vindt u in de app. Morgenochtend om acht uur staat er een nieuwe aflevering voor u klaar. Ik wens u een goede dag."
+    }
+  ]
+}

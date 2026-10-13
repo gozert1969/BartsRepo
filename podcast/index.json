@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "episodes": [
+    {
+      "date": "2026-10-13",
+      "title": "Meta brengt eerste topmodel Muse Wonder uit",
+      "summary": "Meta lanceert Muse Wonder, NTT bouwt mogelijk een datacenter voor Anthropic in Osaka, Anthropic waarschuwt voor zelfkopiërende modellen, de AP richt een AI-directie op en Kroger schrapt banen.",
+      "durationSeconds": 291,
+      "file": "episodes/2026-10-13.json"
+    },
     {
       "date": "2026-10-12",
       "title": "Amazon en Nvidia azen op AI-bedrijven",
