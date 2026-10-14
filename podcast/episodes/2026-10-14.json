@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-14",
+  "title": "Google brengt Gemini 4 Argon naar de Gemini-app",
+  "summary": "Google zet Gemini 4 Argon in de app, wetenschappers willen internationaal AI-toezicht, AI-labs wilden grip op beoordelaars, Apple houdt HomeView buiten de EU en Microsoft dicht een recordaantal lekken.",
+  "durationSeconds": 278,
+  "segments": [
+    {
+      "kind": "intro",
+      "headline": "Opening",
+      "text": "Goedemorgen. Dit is het AI Journaal van woensdag 14 oktober 2026. Google zet zijn nieuwste model Gemini 4 Argon in de Gemini-app. Ongeveer vierhonderd wetenschappers vragen om een internationale toezichthouder voor geavanceerde AI. Anthropic en OpenAI wilden volgens Reuters bepalen wat externe beoordelaars publiceren. En Apple brengt een nieuw slim scherm voor thuis voorlopig niet uit in de Europese Unie."
+    },
+    {
+      "kind": "news",
+      "headline": "Google brengt Gemini 4 Argon naar de Gemini-app",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "text": "We beginnen bij Google. Het bedrijf heeft zijn model Gemini 4 Argon beschikbaar gemaakt in de Gemini-app. Dat meldt Google zelf op zijn blog. Het model is er vanaf dinsdag voor abonnees van Google AI Pro en Google AI Ultra. Volgens Google geeft Argon directere antwoorden. Het model zou minder voorbehouden maken en minder herhalen. Google noemt ook grote verbeteringen bij het programmeren. Met een schakelaar in het chatvenster kunnen gebruikers overstappen van gesprekken naar taken. Gemini kan aan die taken doorwerken als de gebruiker niet achter zijn computer zit. De app werkt volgens Google samen met meer dan veertig andere apps. Benchmarkcijfers en prijzen staan niet in de aankondiging."
+    },
+    {
+      "kind": "news",
+      "headline": "Wetenschappers willen internationaal AI-toezicht",
+      "source": "Reuters / Idaho Business Review",
+      "url": "https://idahobusinessreview.com/2026/10/13/scientists-call-international-oversight-advanced-ai/",
+      "text": "Dan naar het debat over veiligheid. Ongeveer vierhonderd wetenschappers uit vierendertig landen vragen om een internationaal toezichtsorgaan voor geavanceerde AI. Dat meldt persbureau Reuters. Onder de ondertekenaars zijn AI-pioniers Geoffrey Hinton en Yoshua Bengio. Volgens de wetenschappers zijn vrijwillige afspraken van de industrie niet genoeg. Zij willen dat de krachtigste modellen eerst worden afgesloten van externe netwerken. Er moet onafhankelijk toezicht komen. Ook vragen zij om een register van ernstige beveiligingsincidenten. Dat register moet uiteindelijk openbaar worden. Yann LeCun tekende niet. Hij ziet recente incidenten vooral als technische fouten. Eurocommissaris Henna Virkkunen zei tegen Reuters dat de Europese AI-wet volstaat om de risico's aan te pakken."
+    },
+    {
+      "kind": "news",
+      "headline": "AI-labs wilden grip op rapporten van beoordelaars",
+      "source": "Reuters / CP24",
+      "url": "https://www.cp24.com/news/world/2026/10/13/behind-ai-industrys-call-for-independent-reviews-a-fight-over-what-gets-made-public-reuters-exclusive/",
+      "text": "Ook het volgende bericht gaat over toezicht. Anthropic en OpenAI wilden veel invloed op wat externe beoordelaars over hun modellen publiceren. Dat meldt Reuters op basis van twee ingewijden. De bedrijven vreesden dat bedrijfsgeheimen naar buiten zouden komen. Op 5 oktober zochten beide nog strikte redactionele controle. Enkele dagen later leken de gesprekken van Anthropic met beoordelaars te zijn veranderd. Anthropic zegt dat de beschrijving van Reuters de gesprekken niet volledig weergeeft. Bij nieuwe beoordelaars wil het bedrijf rapporten wel mogen becommentariëren en goedkeuren. OpenAI zegt geen goedkeuring te vragen over de volledige tekst. Het bedrijf haalt wel vertrouwelijke informatie weg. Meer dan tweehonderd onderzoekers vragen in een brief om onafhankelijke controle over de bevindingen."
+    },
+    {
+      "kind": "news",
+      "headline": "Apple houdt HomeView buiten de Europese Unie",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/10/13/apple-homeview-wont-be-available-in-eu/",
+      "text": "Dan naar Apple en Europa. Apple heeft HomeView gepresenteerd, een slimme thuiscentrale met een scherm van zeven inch en de AI-versie van Siri. Dat meldt de Amerikaanse site MacRumors. In de Verenigde Staten kost het apparaat 299 dollar. Het komt op 13 november uit in acht landen. In de Europese Unie wordt HomeView niet verkocht. Apple wijst erop dat de AI-functies van Siri in de regio nog niet beschikbaar zijn op de iPhone. Volgens Apple werkt het bedrijf constructief met de Europese Unie samen om een oplossing te vinden. Wanneer het apparaat alsnog in Europa verschijnt, is niet bekend."
+    },
+    {
+      "kind": "news",
+      "headline": "Microsoft dicht recordaantal lekken, mede door AI",
+      "source": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "text": "Dan beveiliging. Microsoft heeft deze maand meer dan veertienhonderd beveiligingslekken gedicht. Dat meldt beveiligingsjournalist Brian Krebs op zijn site Krebs on Security. Microsoft schrijft het grote aantal ontdekte fouten mede toe aan taalmodellen. Volgens beveiligingsbedrijf Tenable is het een record. Het vorige record dateert uit 2020 en lag op ruim twaalfhonderd. Minstens achtenzeventig lekken zijn als kritiek aangemerkt. Eén lek werd al actief misbruikt door aanvallers. Het gaat om een fout in Windows tien en Windows elf. Deskundigen waarschuwen dat zulke grote updates beveiligingsteams onder druk zetten. Die moeten de updates eerst testen voordat ze worden uitgerold."
+    },
+    {
+      "kind": "news",
+      "headline": "Rechter geeft Apple vroeg inzage bij OpenAI",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/",
+      "text": "Tot slot een rechtszaak. Apple krijgt vroegtijdig inzage in stukken van OpenAI. Dat heeft de Amerikaanse rechter Edward Davila dinsdag besloten, meldt de site 9to5Mac. Apple klaagde in juli OpenAI aan, samen met twee oud-medewerkers en het hardwarebedrijf io. Apple stelt dat de oud-medewerkers vertrouwelijke informatie gebruikten voor de hardware van OpenAI. OpenAI moet nu onder meer forensische kopieën van apparaten overdragen. Ook documenten over sollicitatiegesprekken met kandidaten van Apple moeten worden gedeeld. Apple mag betrokkenen verhoren. Stukken van OpenAI over onder meer batterijen worden niet versneld vrijgegeven. Die volgen de gewone procedure."
+    },
+    {
+      "kind": "outro",
+      "headline": "Afsluiting",
+      "text": "Dat was het AI Journaal van woensdag 14 oktober. De bronnen bij deze uitzending vindt u in de app. Morgenochtend om acht uur staat er een nieuwe aflevering voor u klaar. Ik wens u een goede dag."
+    }
+  ]
+}
