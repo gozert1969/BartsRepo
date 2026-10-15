@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "episodes": [
+    {
+      "date": "2026-10-15",
+      "title": "Brussel stelt OpenAI en Anthropic eerste vragen onder AI-wet",
+      "summary": "Brussel vraagt OpenAI en Anthropic om opheldering, ASML ziet orders tot 2030, Anthropic meldt 16,8 miljard dollar kwartaalomzet, banken moeten AI beheersen en Apple brengt AI naar China.",
+      "durationSeconds": 291,
+      "file": "episodes/2026-10-15.json"
+    },
     {
       "date": "2026-10-14",
       "title": "Google brengt Gemini 4 Argon naar de Gemini-app",
