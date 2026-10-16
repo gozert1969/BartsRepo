@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "episodes": [
+    {
+      "date": "2026-10-16",
+      "title": "Chipfondsen onderuit door twijfels over AI-investeringen",
+      "summary": "Chipfondsen dalen wereldwijd, de Toezichthouder VS onderzoekt OpenAI en Anthropic, DeepSeek haalt meer geld op, Microsoft traint een eigen basismodel en veel scripties bevatten AI-tekst.",
+      "durationSeconds": 290,
+      "file": "episodes/2026-10-16.json"
+    },
     {
       "date": "2026-10-15",
       "title": "Brussel stelt OpenAI en Anthropic eerste vragen onder AI-wet",

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-16",
+  "title": "Chipfondsen onderuit door twijfels over AI-investeringen",
+  "summary": "Chipfondsen dalen wereldwijd, de Toezichthouder VS onderzoekt OpenAI en Anthropic, DeepSeek haalt meer geld op, Microsoft traint een eigen basismodel en veel scripties bevatten AI-tekst.",
+  "durationSeconds": 290,
+  "segments": [
+    {
+      "kind": "intro",
+      "headline": "Opening",
+      "text": "Goedemorgen. Dit is het AI Journaal van vrijdag 16 oktober 2026. Chipbedrijven wereldwijd zijn zwaar onderuitgegaan door twijfels over de enorme investeringen in AI. In de Verenigde Staten begint de handelstoezichthouder een onderzoek naar OpenAI en Anthropic. Het Chinese DeepSeek haalt volgens berichten twee keer zoveel geld op als gepland. En volgens RTL Nieuws bevat meer dan de helft van de Nederlandse masterscripties tekst van AI."
+    },
+    {
+      "kind": "news",
+      "headline": "Chipfondsen onderuit door twijfels over AI",
+      "source": "NOS / AI Insider",
+      "url": "https://nos.nl/artikel/2635053-tech-aandelen-dalen-door-ai-twijfels-asml-fors-in-de-min",
+      "text": "We beginnen op de beurs. Chipbedrijven zijn donderdag wereldwijd fors gedaald. Dat meldt de NOS. Beleggers twijfelen hoeveel winst de miljardeninvesteringen in AI gaan opleveren. Ook maken hoge rentes de financiering van die investeringen duur. In Amsterdam daalde ASML op een gegeven moment bijna zeven procent. ASM zakte rond acht procent en BESI ruim vijf procent. De AEX verloor minder dan een procent. In Azië waren de verliezen groter. De Zuid-Koreaanse beurs daalde ruim zeven procent. Samsung en SK Hynix verloren elk ongeveer tien procent. Volgens de site AI Insider speelde ook mee dat de Amerikaanse inflatie in september hoger uitkwam dan verwacht. Een groot deel van de AI-datacenters wordt met geleend geld gebouwd."
+    },
+    {
+      "kind": "news",
+      "headline": "Toezichthouder VS onderzoekt OpenAI en Anthropic",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+      "text": "Dan naar Washington. De Amerikaanse handelstoezichthouder, de Federal Trade Commission, onderzoekt OpenAI en Anthropic. Dat meldt de nieuwssite Axios. De toezichthouder eiste woensdag van beide bedrijven documenten op. Elk verzoek telt meer dan vijftig pagina's. Het gaat om veiligheidsincidenten, beveiligingsmaatregelen, marketingmateriaal en privacybeleid. Volgens een ingewijde draait het om mogelijke schendingen van de consumentenbescherming. De toezichthouder wil later ook andere AI-organisaties benaderen. Topbestuurders kunnen worden verplicht om te getuigen. Voorzitter Andrew Ferguson zei eerder dat AI-systemen niet op de markt horen als ze niet veilig zijn. OpenAI laat weten dat veiligheid een topprioriteit blijft en dat het constructief zal meewerken. Een reactie van Anthropic staat niet in het bericht."
+    },
+    {
+      "kind": "news",
+      "headline": "DeepSeek haalt dubbel zoveel geld op als gepland",
+      "source": "Seoul Economic Daily / Caijing",
+      "url": "https://en.sedaily.com/international/2026/10/14/deepseek-nears-14-billion-funding-round-double-its-original",
+      "text": "Dan China. Het Chinese AI-bedrijf DeepSeek staat op het punt een grote financieringsronde af te ronden. Dat meldt de Zuid-Koreaanse krant Seoul Economic Daily op basis van het Chinese financiële blad Caijing. Het gaat om honderd miljard yuan. Daarmee zou DeepSeek vijfhonderd miljard yuan waard worden. Oorspronkelijk wilde het bedrijf de helft ophalen. Door de grote vraag van beleggers verdubbelde het bedrag binnen twee weken. Bestaande investeerders zijn onder meer Tencent en batterijmaker CATL. Nieuw zijn onder anderen chipfabrikant SMIC en autobouwer Geely. Het geld gaat naar een datacenter in Binnen-Mongolië met meer dan honderdzestigduizend AI-chips van Huawei. DeepSeek wil mogelijk eind dit jaar een beursnotering in Shanghai aanvragen."
+    },
+    {
+      "kind": "news",
+      "headline": "Microsoft traint eigen groot basismodel",
+      "source": "Microsoft AI",
+      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+      "text": "Ook Microsoft meldt nieuws over modellen. Het bedrijf heeft de eerste trainingsfase van een nieuw groot basismodel afgerond. Dat schrijft Microsoft zelf op zijn website. Het model heet MAI Base twee. Het is achtendertig dagen getraind op ongeveer zestienduizend chips van Nvidia. Volgens Microsoft verliep de training vier tot twaalf keer efficiënter dan bij het sterkste open model dat het bedrijf testte. Dat is een model van het Chinese DeepSeek. Microsoft zegt dat het model niet is getraind op uitvoer van andere modellen. Microsoft brengt het niet openbaar uit. Het bedrijf wil het model in licentie geven aan vertrouwde partners."
+    },
+    {
+      "kind": "news",
+      "headline": "Meer dan helft masterscripties bevat AI-tekst",
+      "source": "U-Today / RTL Nieuws",
+      "url": "https://www.utoday.nl/news/77278/rtl-meer-dan-de-helft-van-de-masterscripties-bevat-teksten-van-ai",
+      "text": "Dan het Nederlandse onderwijs. Meer dan de helft van de masterscripties aan Nederlandse universiteiten bevat tekst van AI. Dat blijkt uit onderzoek van RTL Nieuws, zo meldt het universiteitsblad U-Today. RTL onderzocht honderden scripties van twaalf universiteiten. Bij negenenvijftig procent vond RTL sporen van generatieve AI. In veertien procent kwam meer dan de helft van de tekst van een chatbot. Zes procent lijkt vrijwel volledig door AI geschreven. RTL gebruikte daarvoor het detectieprogramma Pangram. Per scriptie werden drieduizend woorden gescand. Volgens wetenschappers is Pangram voorzichtig en mist het veel AI-teksten. Onderwijsminister Rianne Letschert noemt het fraude als een student een scriptie volledig door AI laat maken. Volgens haar moeten instellingen nagaan of ze daar genoeg op toezien."
+    },
+    {
+      "kind": "news",
+      "headline": "Amerikaanse centrale bank ziet AI banen kosten",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/15/the-fed-just-found-ai-is-starting-to-cost-jobs-in-5-of-its-12-districts/",
+      "text": "Tot slot de Amerikaanse arbeidsmarkt. De Amerikaanse centrale bank meldt voor het eerst dat AI banen kost. Dat schrijft de beleggerssite Twenty Four Seven Wall Street over het Beige Book, het periodieke economische overzicht van de Federal Reserve. In vijf van de twaalf districten van de centrale bank namen bedrijven minder personeel aan na investeringen in AI. Zij lieten vacatures openstaan als werknemers vertrokken, of stelden nieuwe aanwervingen uit. De meeste districten zagen per saldo weinig verandering in de werkgelegenheid. De site benadrukt dat het rapport berust op gesprekken met bedrijven. Officiële cijfers moeten de bevindingen nog bevestigen."
+    },
+    {
+      "kind": "outro",
+      "headline": "Afsluiting",
+      "text": "Dat was het AI Journaal van vrijdag 16 oktober. De bronnen bij deze uitzending vindt u in de app. Morgenochtend om acht uur staat er een nieuwe aflevering voor u klaar. Ik wens u een goede dag."
+    }
+  ]
+}
